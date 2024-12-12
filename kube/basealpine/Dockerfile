@@ -1,5 +1,5 @@
 # Keep the tag for basealpine in sync with the tag used here for alpine.
-FROM alpine:3.18
+FROM alpine:3.21.0
 
 RUN apk update && apk add --no-cache ca-certificates adduser && \
     addgroup -g 2000 -S skia && \
